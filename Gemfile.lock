@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/threedaymonk/text.git
+  revision: 88a5f47db7443c403e12699f6d9f38f7b717ba29
+  specs:
+    text (1.0.1)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -41,4 +47,5 @@ DEPENDENCIES
   rack-test
   rspec
   sinatra
+  text!
   thin

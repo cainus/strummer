@@ -5,6 +5,7 @@ gem 'mongo'
 gem 'bson_ext'
 gem "eventmachine"
 gem 'thin'
+gem 'text', :git => "https://github.com/threedaymonk/text.git"
 
 
 group :test do
