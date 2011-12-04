@@ -10,7 +10,7 @@ class FrequencyReport
     cursor.each do |doc|
       if doc["messages"]["error"]
         doc["messages"]["error"].each do |message|
-          @db.collection("test").insert({:message => message, :last_occurance => doc["request_time"]})
+          @db.collection("test").insert({:message => message, :last_occurrence => doc["request_time"]})
         end
       end
     end
